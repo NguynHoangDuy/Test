@@ -17,7 +17,6 @@ body{
 #menu{
     display: flex;
     align-items: center;
-    
 }
 ul{
     list-style-type: none;
@@ -33,9 +32,12 @@ li a{
     font-size: 25px;
     color: #1B2A5B;
 }
-
+#dropDown{
+    position: relative;
+}
 .dropdown-content{
     display: none;
+    position: absolute;
 }
 
 #dropDown:hover .dropdown-content{
@@ -57,7 +59,6 @@ h3{
 p{
     color: #7F869F;
     font-size: 30px;
-    max-width: 720px;
     text-align: center;
 }
 
@@ -77,6 +78,7 @@ p{
     padding: 10px 20px 10px;
     margin-right: 20px;
     font-size: 15px;
+    box-shadow: 5px 10px 18px #FFD27D;
 }
 #buy:hover{
     background-color: burlywood;
@@ -98,7 +100,6 @@ button:hover{
     }
     p{
         font-size: 40px;
-        max-width: 950px;
     }
     .btn{
         font-size: 30px;
@@ -153,7 +154,6 @@ button:hover{
     }
     p{
         font-size: 80px;
-        max-width: 1900px;
     }
     .btn{
         font-size: 60px;
