@@ -1,0 +1,160 @@
+
+body{
+    font-family: sans-serif;
+}
+#header{ 
+    display: flex;
+    padding-bottom: 150px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#logo a{
+    text-decoration: none;
+    color: #19295b;
+    font-size: 35px;
+    font-weight: bold;
+}
+#menu{
+    display: flex;
+    align-items: center;
+    
+}
+ul{
+    list-style-type: none;
+}
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    padding-right: 50px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #1B2A5B;
+}
+
+.dropdown-content{
+    display: none;
+}
+
+#dropDown:hover .dropdown-content{
+    display: block;
+}
+
+#body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h3{
+    color: #19295b;
+    font-size: 50px;
+    margin: 0px;
+}
+p{
+    color: #7F869F;
+    font-size: 30px;
+    max-width: 720px;
+    text-align: center;
+}
+
+.btn{
+    background-color: white;
+    border: 1px #7F869F solid;
+    border-radius: 25px;
+    padding: 10px 20px 10px;
+    margin-right: 20px;
+    font-size: 15px;
+
+}
+#buy{
+    background-color: #FFD27D;
+    border: 1px #7F869F solid;
+    border-radius: 25px;
+    padding: 10px 20px 10px;
+    margin-right: 20px;
+    font-size: 15px;
+}
+#buy:hover{
+    background-color: burlywood;
+}
+button:hover{
+    background: #7F869F;
+}
+
+@media screen and (min-width: 1280px) {
+    #logo a{
+        font-size: 55px;
+    }
+    li a{
+        font-size: 30px;
+    }
+    h3{
+        font-size: 70px;
+
+    }
+    p{
+        font-size: 40px;
+        max-width: 950px;
+    }
+    .btn{
+        font-size: 30px;
+        border-radius: 30px;
+    
+    }
+    #buy{
+        font-size: 30px;
+        border-radius: 30px;
+    }
+  }
+
+  @media screen and (min-width: 2000px) {
+    #logo a{
+        font-size: 75px;
+    }
+    li a{
+        font-size: 50px;
+    }
+    h3{
+        font-size: 90px;
+
+    }
+    p{
+        font-size: 60px;
+        max-width: 1450px;
+    }
+    .btn{
+        font-size: 50px;
+        border-radius: 50px;
+    
+    }
+    #buy{
+        font-size: 50px;
+        border-radius: 50px;
+    }
+  }
+  @media screen and (min-width: 3000px) {
+    #logo a{
+        font-size: 95px;
+    }
+    li a{
+        font-size: 60px;
+    }
+    h3{
+        font-size: 120px;
+
+    }
+    p{
+        font-size: 80px;
+        max-width: 1900px;
+    }
+    .btn{
+        font-size: 60px;
+    }
+    #buy{
+        font-size: 60px;
+    }
+  }
